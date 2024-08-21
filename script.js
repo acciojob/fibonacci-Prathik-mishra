@@ -1,3 +1,4 @@
+let num=9;
 function fibonacci(num) {
 // your code here
 	let a=0, b=1, result;
@@ -11,7 +12,7 @@ function fibonacci(num) {
 	}
 	return b;
 }
-let num = prompt();
-console.log("the  fibonacci numbers are"+ fibonacci(num));
+fibonacci(num);
 
-module.exports = fibonacci;
+
+
