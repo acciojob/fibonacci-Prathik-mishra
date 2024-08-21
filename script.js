@@ -1,5 +1,4 @@
-let num=prompt("enter the number");
-num.parseInt(num);
+let num = 1;
 
 function fibonacci(num) {
 // your code here
