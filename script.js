@@ -1,4 +1,4 @@
-let num=1
+let num=1;
 function fibonacci(num) {
 // your code here
 	let a=0, b=1, result;
