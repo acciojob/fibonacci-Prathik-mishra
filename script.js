@@ -12,6 +12,6 @@ function fibonacci(num) {
 	return b;
 }
 let num = prompt();
-alert("the  fibonacci numbers are"+ fibonacci(num));
+console.log("the  fibonacci numbers are"+ fibonacci(num));
 
 module.exports = fibonacci;
