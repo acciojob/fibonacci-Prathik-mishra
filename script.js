@@ -1,4 +1,4 @@
-let num=5;
+
 function fibonacci(num) {
 // your code here
 	let a=0, b=1, result;
@@ -12,7 +12,7 @@ function fibonacci(num) {
 		a=b;
 		b=result;
 	}
-	console.log(b);
+	return b;
 }
 }
 fibonacci(num);
