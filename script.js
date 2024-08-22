@@ -1,22 +1,24 @@
-
 let num=5;
 
 function fibonacci(num) {
 // your code here
 	let a=0, b=1, result;
-	if(num === 0 || num === 1){
-		return a;
+	if(num == 1 ){
+		return 0;
+       }
+       else if(num == 2){
+        return 1;
        }
        else{
-        for (let i = 2; i < num;i++){
+        for (let i = 3; i <= num;i++){
 		 result=a+b;
 		 a=b;
 		 b=result;
 	 }
 	 return b;
+    }
    }
-}
-console.log(fibonacci(num));
+console.log("the fibonacci number is"+ fibonacci(num));
 
 
 
