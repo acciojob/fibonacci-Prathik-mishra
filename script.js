@@ -1,5 +1,5 @@
 
-let num=1;
+let num=5;
 
 function fibonacci(num) {
 // your code here
@@ -8,7 +8,7 @@ function fibonacci(num) {
 		return a;
        }
        else{
-        for (let i = 3; i <= num;i++){
+        for (let i = 2; i < num;i++){
 		 result=a+b;
 		 a=b;
 		 b=result;
@@ -17,7 +17,6 @@ function fibonacci(num) {
    }
 }
 console.log(fibonacci(num));
-
 
 
 
